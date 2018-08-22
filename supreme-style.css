@@ -1,0 +1,95 @@
+body, html {
+    background: black;
+    height: 100%;
+}
+.main {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.center {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.bababa {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.nodecor {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.fb {
+    background-position: 0px 0px; display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    opacity: 0.25;
+    cursor: pointer; 
+    background-image:url(https://d17ol771963kd3.cloudfront.net/assets/social-sprites@2x-7caefa2122eb85bdd657dd1a6c98659a.png);
+}
+
+.instagram {
+    background-position: 0px -40px; display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    opacity: 0.25;
+    cursor: pointer; 
+    background-image:url(https://d17ol771963kd3.cloudfront.net/assets/social-sprites@2x-7caefa2122eb85bdd657dd1a6c98659a.png);
+}
+
+.appstore {
+    background-position: 0px -80px; display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    opacity: 0.25;
+    cursor: pointer; 
+    background-image:url(https://d17ol771963kd3.cloudfront.net/assets/social-sprites@2x-7caefa2122eb85bdd657dd1a6c98659a.png);
+}
+
+body {
+    background: #eee url(https://d17ol771963kd3.cloudfront.net/assets/bg/2-a191b4cb561e54bbfcfa3b4a1356a403.gif) no-repeat center;
+    background-size: cover;
+}
+
+a:hover {
+    background: red;
+}
+
+li {
+    margin-top: 20px;
+}
+
+li:first-of-type {
+    margin-top: 0;
+}
+
+@media print {
+    body {
+        background: none;
+    }
+    span {
+        color: black;
+    }
+}
