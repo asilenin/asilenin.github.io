@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+.__menu__wrapper {
+    position: relative;
+}
+
+.__menu {
+    max-width: 600px;
+}
