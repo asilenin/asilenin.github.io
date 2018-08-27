@@ -22,7 +22,13 @@
 
 // console.log ("привет из консоли");
 
-var sumNumbers = function (a, b) {
-    var a = a+b;
-    console.log (a);
+// var sumNumbers = function (a, b) {
+//     var a = a+b;
+//     console.log (a);
+// }
+
+var easterFunction = function () {
+    alert("wheeeeeee!");
 }
+
+$('#easter').click(easterFunction);
