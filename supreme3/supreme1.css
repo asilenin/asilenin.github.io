@@ -1,0 +1,51 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: black;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.__page__wrapper {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.__main__list {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.__main__list ul li {
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.__main__list ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.__main__list ul li a:hover {
+    background: red;
+}
+
+#__logo__img {
+    width: 150px;
+    height: 45px;
+    background-image: url(https://d17ol771963kd3.cloudfront.net/assets/logo-supreme-x2-255f947213970b7718d521c3270faefe.png);
+}
+
+.__logo {}
